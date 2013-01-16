@@ -235,7 +235,6 @@
 				11EE825716478A440039CDD4 /* STPToken.h */,
 				11EE825816478A440039CDD4 /* STPToken.m */,
 			);
-			name = Stripe;
 			path = Stripe;
 			sourceTree = "<group>";
 		};
@@ -258,7 +257,6 @@
 				112D5AEE164DAD2D0053BB76 /* STPTokenTest.h */,
 				112D5AEF164DAD2D0053BB76 /* STPTokenTest.m */,
 			);
-			name = StripeTest;
 			path = StripeTest;
 			sourceTree = "<group>";
 		};
@@ -783,6 +781,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -804,6 +803,7 @@
 				INFOPLIST_FILE = "StripeTest/StripeTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
